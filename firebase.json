@@ -1,0 +1,35 @@
+{
+  "hosting": {
+    "public": "public/react-app/dist",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "home",
+        "destination": "/home.html"
+      },
+      {
+        "source": "product",
+        "destination": "/index.html"
+      },
+      {
+        "source": "cart",
+        "destination": "/index.html"
+      },
+      {
+        "source": "profile",
+        "destination": "/index.html"
+      },
+      {
+        "source": "**",
+        "destination": "/home.html"
+      }
+    ],
+    "redirects": [
+      {
+        "source": "/",
+        "destination": "/home.html",
+        "type": 301
+      }
+    ]
+  }
+}

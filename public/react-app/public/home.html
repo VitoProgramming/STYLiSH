@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Stylish</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="main-header">
+      <div class="main-header__logo-nav-container">
+        <a href="./home.html"
+          ><img src="./images/logo.png" alt="logo" class="main-header__logo"
+        /></a>
+        <nav class="main-header__nav">
+          <ul class="nav__menu">
+            <li class="menu__items">女裝</li>
+            <span class="menu__separator"></span>
+            <li class="menu__items">男裝</li>
+            <span class="menu__separator"></span>
+            <li class="menu__items">配件</li>
+          </ul>
+        </nav>
+      </div>
+      <div class="main-header__profile-container">
+        <form class="main-header__form">
+          <input type="search" class="form__search" />
+          <button class="form__searchbtn"></button>
+        </form>
+        <button type="submit" class="form__searchbtn2"></button>
+        <div class="cart-profile__container">
+          <div class="cart__container">
+            <div class="main-header__cart">
+              <img src="./images/cart.png" alt="cart" class="cart" />
+              <span class="cart__number"></span>
+            </div>
+            <span class="cart__name">購物車</span>
+          </div>
+          <span class="cart-member__separator"></span>
+          <div class="main-header__profile">
+            <img src="./images/member.png" alt="member" class="member" />
+            <span class="member__name">會員</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main -->
+    <main class="main">
+      <!-- Products -->
+      <article class="main__product-container"></article>
+    </main>
+
+    <!-- Footer -->
+    <div class="footer__container">
+      <footer class="footer">
+        <ul class="footer__list">
+          <div class="list__subcontainer">
+            <li>
+              <a href="#" class="list__item">關於<span>STYLISH</span></a>
+            </li>
+            <li>
+              <a href="#" class="list__item">服務條款</a>
+            </li>
+            <li>
+              <a href="#" class="list__item">隱私政策</a>
+            </li>
+          </div>
+          <div class="list__subcontainer2">
+            <li>
+              <a href="#" class="list__item">聯絡我們</a>
+            </li>
+            <li>
+              <a href="#" class="list__item">FAQ</a>
+            </li>
+          </div>
+        </ul>
+        <ul class="footer__contact">
+          <li>
+            <a href="#"
+              ><img src="./images/line.png" alt="line" class="contact__img"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img
+                src="./images/twitter.png"
+                alt="twitter"
+                class="contact__img"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img
+                src="./images/facebook.png"
+                alt="facebook"
+                class="contact__img"
+            /></a>
+          </li>
+        </ul>
+        <small class="footer__copyright">© 2018. All rights reserved.</small>
+      </footer>
+    </div>
+    <script src="./js/script.js" type="module"></script>
+  </body>
+</html>
