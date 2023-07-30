@@ -40,22 +40,22 @@
  ![flow chart](./src/assets/images/flowchart.drawio.svg)
 
 ### Demo
-- Click each category to browse the relevant products
+- Click each category to browse the relevant products.
 ![category](./src/assets/images/category.gif)
 
-- Load more products when user scrolls to the bottom
+- Load more products when user scrolls to the bottom.
 ![infinite-scroll](./src/assets/images/infinite-scroll.gif)
 
-- Type a keyword to search for the preferred products
+- Type a keyword to search for the preferred products.
 ![search](./src/assets/images/search.gif)
 
-- Click each dot to view the relevant banner
+- Click each dot to view the relevant banner.
 ![carousel](./src/assets/images/carousel.gif)
 
-- Select size, color, and quantities according to preferences
+- Select size, color, and quantities according to preferences.
 ![selection](./src/assets/images/selection.gif)
 
-- Click the cart to check out added items
+- Click the cart to check out added items.
 ![checkout](./src/assets/images/checkout.gif)
 
 ### Contact
