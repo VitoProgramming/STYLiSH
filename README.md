@@ -41,17 +41,22 @@
 
 ### Demo
 - Click each category to browse the relevant products
-![category](./src/assets/category.gif)
+![category](./src/assets/images/category.gif)
+
 - Load more products when user scrolls to the bottom
-![infinite-scroll](./src/assets/infinite-scroll.gif)
+![infinite-scroll](./src/assets/images/infinite-scroll.gif)
+
 - Type a keyword to search for the preferred products
-![search](./src/assets/search.gif)
+![search](./src/assets/images/search.gif)
+
 - Click each dot to view the relevant banner
-![carousel](./src/assets/carousel.gif)
+![carousel](./src/assets/images/carousel.gif)
+
 - Select size, color, and quantities according to preferences
-![selection](./src/assets/selection.gif)
+![selection](./src/assets/images/selection.gif)
+
 - Click the cart to check out added items
-![checkout](./src/assets/checkout.gif)
+![checkout](./src/assets/images/checkout.gif)
 
 ### Contact
   <a href="https://www.linkedin.com/in/vito-huang-275828243/" text-decoration="none">
